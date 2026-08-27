@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Performance Inspector 프론트엔드 스타일'
+  short_description: '성능 실험용 프론트엔드 구조와 코딩 규칙을 적용합니다'
+  default_prompt: 'Use $following-performance-inspector-frontend-style to apply the Performance Inspector frontend conventions to this change.'
