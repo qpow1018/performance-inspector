@@ -1,3 +1,3 @@
 export default function HomePage() {
-  return <main aria-label="Lighthouse baseline" />
+  return <main aria-label="Lighthouse baseline" />;
 }

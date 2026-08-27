@@ -1,0 +1,14 @@
+:root {
+  color: $color-text;
+  background: $color-background;
+  font-family: $font-family;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: $line-height;
+}
