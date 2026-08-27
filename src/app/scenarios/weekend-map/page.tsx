@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   description: 'Lighthouse 기준선 측정을 위한 국내 여행 큐레이션 페이지입니다.',
 };
 
-export default function LighthousePage() {
+export default function WeekendMapPage() {
   return <WeekendMapLanding />;
 }
