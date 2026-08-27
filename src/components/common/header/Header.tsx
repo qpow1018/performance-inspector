@@ -16,6 +16,9 @@ export default function Header() {
           <Link className={styles['navigation-link']} href="/scenarios/lifestyle-shop">
             라이프스타일 숍
           </Link>
+          <Link className={styles['navigation-link']} href="/scenarios/book-shelf">
+            책의 서랍
+          </Link>
         </nav>
       </div>
     </header>
