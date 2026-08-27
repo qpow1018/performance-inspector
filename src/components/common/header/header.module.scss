@@ -1,0 +1,24 @@
+.header {
+  border-bottom: 1px solid $color-border;
+
+  .content {
+    display: flex;
+    align-items: center;
+    width: min(100% - 40px, 1200px);
+    min-height: 64px;
+    margin: 0 auto;
+  }
+
+  .brand {
+    color: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 4px;
+    }
+  }
+}

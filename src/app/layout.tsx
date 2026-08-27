@@ -1,4 +1,5 @@
 import '@/assets/global.scss';
+import Header from '@/components/common/header/Header';
 
 type RootLayoutProps = Readonly<{
   children: React.ReactNode;
@@ -7,7 +8,10 @@ type RootLayoutProps = Readonly<{
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
