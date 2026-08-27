@@ -9,6 +9,11 @@ export default function Header() {
         <Link className={styles['brand']} href="/">
           Performance Inspector
         </Link>
+        <nav aria-label="페이지 메뉴" className={styles['navigation']}>
+          <Link className={styles['navigation-link']} href="/lighthouse">
+            주말의 지도
+          </Link>
+        </nav>
       </div>
     </header>
   );
