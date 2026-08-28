@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import LifestyleShopClient from '../_component/LifestyleShopClient';
+import LifestyleShopBeforeClient from './_component/LifestyleShopBeforeClient';
 
 export const metadata: Metadata = {
   title: 'Everyday Market Before | Performance Inspector',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function LifestyleShopBeforePage() {
-  return <LifestyleShopClient />;
+  return <LifestyleShopBeforeClient />;
 }

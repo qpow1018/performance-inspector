@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-import styles from './lifestyle-shop-client.module.scss';
+import styles from './lifestyle-shop-before-client.module.scss';
 
 type TProduct = {
   id: string;
@@ -91,7 +91,7 @@ function ProductSection({ eyebrow, title, description, products }: TProductSecti
   );
 }
 
-export default function LifestyleShopClient() {
+export default function LifestyleShopBeforeClient() {
   const [kitchenProducts, setKitchenProducts] = useState<TProduct[]>([]);
   const [popularProducts, setPopularProducts] = useState<TProduct[]>([]);
   const [categoryProducts, setCategoryProducts] = useState<Record<string, TProduct[]>>({});
