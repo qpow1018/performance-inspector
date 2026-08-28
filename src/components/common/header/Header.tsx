@@ -10,7 +10,7 @@ export default function Header() {
           Performance Inspector
         </Link>
         <nav aria-label="페이지 메뉴" className={styles['navigation']}>
-          <Link className={styles['navigation-link']} href="/scenarios/lifestyle-shop">
+          <Link className={styles['navigation-link']} href="/scenarios/lifestyle-shop/before">
             Everyday Market
           </Link>
           <Link className={styles['navigation-link']} href="/scenarios/book-shelf">
