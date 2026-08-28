@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 
-import LifestyleShopLanding from './_component/LifestyleShopLanding';
+import LifestyleShopClient from './_component/LifestyleShopClient';
 
 export const metadata: Metadata = {
-  title: '라이프스타일 숍 | Performance Inspector',
-  description: '상품 목록의 이미지 전달 성능을 측정하기 위한 라이프스타일 편집숍 페이지입니다.',
+  title: 'Everyday Market | Performance Inspector',
+  description: '여러 상품 섹션과 API 요청이 있는 범용 마켓 홈 화면입니다.',
 };
 
 export default function LifestyleShopPage() {
-  return <LifestyleShopLanding />;
+  return <LifestyleShopClient />;
 }
